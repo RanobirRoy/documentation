@@ -7,3 +7,12 @@ Git Documentation final
 5. Create Branch : git branch -m main
 6. git remote add origin https://github.com/RanobirRoy/bus-ticket-system.git
 7. git push -u origin main
+
+
+1. git init
+2. git remote add origin https://github.com/RanobirRoy/bus-ticket-system.git
+3. git remote -v
+4. git add .
+5. git commit -m "first Commit"
+6. git branch -m main
+7. git push -u origin main
