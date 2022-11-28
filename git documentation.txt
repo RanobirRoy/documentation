@@ -17,3 +17,5 @@ Perfect Command :
 5. git commit -m "first Commit"
 6. git branch new_branch
 7. git push -u origin new_branch
+
+8. git push --set-upstream origin main
