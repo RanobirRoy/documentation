@@ -1,0 +1,13 @@
+EnMdMiInMiPrFnAcRt
+
+1. Terminal : Set Database from env file (make sure it in right place)
+2. Terminal : create model : php artisan make:model inputModel
+   Advance code in one line : php artisan make:model inputModel --migration
+
+3. Terminal : create table : php artisan make:migration create_inputModel_table
+4. Migrations File : input table columns info
+5. Terminal : php artisan migrate
+6. inputMoodel.php : model file protected $table = 'table';
+7. inputController.php : in inputController file : set Use part, insert function work
+8. html form : Set action in insrt form
+9. Web.php : set route like insert form

@@ -1,0 +1,12 @@
+1. Live Reload
+   (a) php artisan serve ip code past in ewb extention 1st code
+   (b) web.php go live and paste that ip in web extention 2nd code
+2. Sass
+   (a) create scss folder
+   (b) set watch sass path in json file
+3. Sass (No need extention and it's reload page automaticaly)
+   (a) vite file resource/scss/app.scss
+   (b) Terminal : npm install
+   (c) Terminal : npm add -D sass (Must be sass)
+   (d) Terminal : npm run dev
+   (e) blade file @vite('['resources/scss/app.scss','resources/css/app.css', 'resources/js/app.js']')

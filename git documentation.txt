@@ -1,0 +1,9 @@
+Git Documentation final
+1. git status
+1. git init
+2. git add .
+3. git commit -m "first Commit"
+4. Author creation first time with user name email
+5. Create Branch : git branch -m main
+6. git remote add origin https://github.com/RanobirRoy/bus-ticket-system.git
+7. git push -u origin main

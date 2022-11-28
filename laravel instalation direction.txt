@@ -1,0 +1,7 @@
+1. Download composer install
+2. Install composer set location to php/php.exe
+3. Laravel install from laravel website documentation code : composer global require laravel/installer
+4. cd file/path
+5. laravel new projectName
+6. go to cd projectName 
+7. php artisan serve 

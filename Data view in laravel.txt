@@ -1,0 +1,7 @@
+AlCmWtFrRt
+
+1. inputController :$var = modelName::all(); ( make sure input model is used )
+2. inputController : compact('var');
+3. return view('page')->with($data);
+4. foreach and print data
+5. create route to view function
