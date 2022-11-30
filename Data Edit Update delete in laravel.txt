@@ -1,0 +1,16 @@
+1. set action to route direction clearly
+2. edit $id, new object,
+   $getingData = $storedData->where('id',$id)->get();
+   return view('update',['getingData'=>$getingData]);
+
+3. Update (Request $request, $id) [Handle all id error]
+   $storedData = crudModel::find($id);
+   $storedData->name = $request->name;
+   $storedData->roll = $request->roll;
+   $storedData->save();
+
+   return redirect('/show');
+
+4. $storedData = new crudModel();
+   $deletData = $storedData->where('id',$id)->delete();
+   Handle an error with if condition
