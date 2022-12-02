@@ -15,5 +15,6 @@ Perfect Command :
 3. git remote -v
 4. git add .
 5. git commit -m "first Commit"
-6. git branch new_branch
+6. git branch new_branch(main)
+7. git checkout main
 7. git push -u origin new_branch
